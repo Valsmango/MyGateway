@@ -1,0 +1,27 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
+<!--<mapper namespace="com/example/in2out/mapper/OuterXmlMapper.java">-->
+
+
+<!--    <resultMap id="BaseResultMap" type="com.example.in2out.entity.OuterXmlInfoCache">-->
+<!--        <id column="ID" property="id" />-->
+<!--        <result column="HOST" property="host" />-->
+<!--        <result column="PORT" property="port" />-->
+<!--        <result column="INFO" property="info" />-->
+<!--    </resultMap>-->
+
+<!--    <sql id="Base_Column_List">-->
+<!--        id, host, port, info-->
+<!--    </sql>-->
+<!--    <select id="getOuterXml" resultType="com.example.in2out.entity.OuterXmlInfoCache">-->
+<!--        select * from t_info where host = #{host} and port = #{port}-->
+<!--    </select>-->
+
+<!--    <insert id="insertOuterXml" parameterType="com.example.in2out.entity.OuterXmlInfoCache">-->
+<!--        insert into t_info(HOST, PORT, INFO) values (#{host}, #{port}, #{info})-->
+<!--    </insert>-->
+
+<!--    <select id="getCount" resultType="java.lang.Integer">-->
+<!--        select count(*) from t_info-->
+<!--    </select>-->
+<!--</mapper>-->
